@@ -5,5 +5,5 @@
       #database: cqrs-db
 
 kafka:
-  partitions: 4
+  partitions: 1
   replicas: 1
