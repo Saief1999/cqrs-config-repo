@@ -1,3 +1,4 @@
 kafka:
 #  host: localhost:9092
+   host: kafka-server:9092
    topic: projector-topic-cqrs
