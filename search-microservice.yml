@@ -7,6 +7,4 @@ spring.redis.host: redis-server
 # Elastic Config
 
 spring.data.elasticsearch.repositories.enabled: true
-spring.data.elasticsearch.cluster-nodes: elasticsearch-server:9200
 spring.data.elasticsearch.cluster-name: local-cluster
-spring.elasticsearch.rest.uris: elasticsearch-server:9200
