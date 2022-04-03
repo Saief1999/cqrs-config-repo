@@ -2,6 +2,7 @@
 spring:
   data: 
     mongodb:
+      host: mongodb-server
       database: cqrs-db
       port: 27017
 
