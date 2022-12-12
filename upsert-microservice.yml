@@ -7,7 +7,7 @@ spring:
       database: dev-cqrs-mongodb
       # port: 27017
 
-kafka:
-  partitions: 1
-  replicas: 1
+# kafka:
+#   partitions: 1
+#   replicas: 1
 

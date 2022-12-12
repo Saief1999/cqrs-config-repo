@@ -1,10 +1,11 @@
-kafka:
-  group-id: cqrs-search
+# kafka:
+#   group-id: cqrs-search
 
 # Redis Config
-spring.redis.host: redis-server
+# spring.redis.host: redis-server
+
 # Elastic Config
 spring.data.elasticsearch.repositories.enabled: true
-spring.data.elasticsearch.cluster-nodes: es-server:9200
+spring.data.elasticsearch.cluster-nodes: http://cqrs-dns.westeurope.azurecontainer.io:9200
 spring.data.elasticsearch.cluster-name: local-cluster
-spring.elasticsearch.rest.uris: es-server:9200
+spring.elasticsearch.rest.uris: http://cqrs-dns.westeurope.azurecontainer.io:9200
