@@ -3,7 +3,7 @@ spring:
   data: 
     mongodb:
       # host: mongodb-server
-      uri: mongodb://dev-cqrs-db-account:9YsJEwguy4M2bhNXSixix5DsudYH8NoG2gy2YJLMpvVZiO0cWSE0CRIbmVDOuQMXpnnHtCCchKhkACDbBvO6Dg==@dev-cqrs-db-account.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@dev-cqrs-db-account@
+      uri: mongodb://dev-cqrs-db-account:PxOUQORfSV5XulOB2SkePRzeEJCpPsMCz0eD2W19PPvB96kChX58KvKufZnP336lB68mzMvhRva7ACDbA9SZ3A==@dev-cqrs-db-account.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@dev-cqrs-db-account@
       database: dev-cqrs-mongodb
       # port: 27017
 
