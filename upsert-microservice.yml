@@ -11,3 +11,5 @@ spring:
 #   partitions: 1
 #   replicas: 1
 
+topic-key: XpblHLk+2uT3qzpyIIbw+qDHwnBhjEZVHyiWjYxL8GY=
+topic-endpoint: https://dev-cqrs-eventgrid-topic.westeurope-1.eventgrid.azure.net/api/events
