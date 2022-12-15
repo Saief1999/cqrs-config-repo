@@ -3,7 +3,7 @@ spring:
   data: 
     mongodb:
       # host: mongodb-server
-      uri: mongodb://dev-cqrs-db-account:pUMiy1LsHFQrPcGgzEFuDXDtNf79cQCNpC180mPJIaCT809670pS1lbcpP0m0VDZYvLxvZCbYR5kACDbAXc7dQ==@dev-cqrs-db-account.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@dev-cqrs-db-account@
+      uri: mongodb://dev-cqrs-db-account:c1isb8FSDvQAVpCuEOJr9wcstDadcpYFnGuqA74StiZecseJHFExNvCedbRNMb537B5MsA2yQ5aYACDbgp8nwQ==@dev-cqrs-db-account.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@dev-cqrs-db-account@
       database: dev-cqrs-mongodb
       # port: 27017
 
@@ -11,5 +11,5 @@ spring:
 #   partitions: 1
 #   replicas: 1
 
-topic-key: XpblHLk+2uT3qzpyIIbw+qDHwnBhjEZVHyiWjYxL8GY=
+topic-key: qFxSyPhWHWhz8KYJmQNJ8d6eENgvN8Crcho7HnSruCo=
 topic-endpoint: https://dev-cqrs-eventgrid-topic.westeurope-1.eventgrid.azure.net/api/events
